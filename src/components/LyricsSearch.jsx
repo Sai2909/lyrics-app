@@ -51,7 +51,7 @@ function LyricsSearch({ url }) {
       </form>
       <hr />
       {error && <h2 className='error'>{error}</h2>}
-      <pre>{lyrics}</pre>
+      <pre className='lyrics-background'>{lyrics}</pre>
     </div>
    </>
   );
