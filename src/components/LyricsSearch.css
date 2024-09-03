@@ -41,5 +41,6 @@
   color: red;
 }
 .lyrics-background{
-  background-color: beige;
+  background-color: rgb(165, 224, 170);
+  border-radius: 5px;
 }
