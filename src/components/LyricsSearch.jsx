@@ -27,7 +27,7 @@ function LyricsSearch({ url }) {
   return (
    <>
     <div className='search-container'>
-      <h2>Lyrics Search</h2>
+      <h2>Lyrics Search_App</h2>
       <form onSubmit={searchLyrics}>
         <input
           type='text'
@@ -53,6 +53,7 @@ function LyricsSearch({ url }) {
       {error && <h2 className='error'>{error}</h2>}
       <pre className='lyrics-background'>{lyrics}</pre>
     </div>
+    <p className='footer'>Developed by <a href='https://medium.com/@saikiranmanchala2000'>Sai Manchala</a></p>
    </>
   );
 }
